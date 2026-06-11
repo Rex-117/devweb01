@@ -7,7 +7,24 @@ h1 {
   font-size: 55px;
 }
 
-img {
+.interest {
+  width: 200px;
+  height: 100px;
+  background-color: #0cc1ea;
+  padding: 20px;
+  padding: 10px 20px;
+  padding-top: 10px;
+  word-spacing: 1rem;
+  border: 2px solid #333;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  margin-bottom: 40px;
+}
+
+.glorp {
   width: 250px;
 }
 
