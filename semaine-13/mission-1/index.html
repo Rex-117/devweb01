@@ -4,17 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Site de test</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk:MORF@15&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nabla&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h1>Damon</h1>
     <h2>Groupe d'initiative avenir</h2>
     <p>
-      Bienvenue sur mon site de test! LMAO. Nous somes dans le groupe
-      d'initiative avenir LOL™ <br />
+      Bienvenue sur mon site de test! <span class="lmao">LMAO</span>. Nous somes
+      dans le groupe d'initiative avenir LOL™ <br />
       C'est un site blanc <br />
       Haha lol <br />
       Je fais du coding dans VS Code<br />
-      Est-ce que vous avez vu un Ay LMAO™?
+      Est-ce que vous avez vu un <span class="lmao2">Ay LMAO™?</span>
     </p>
     <ul>
       <li>Technologie</li>
@@ -22,8 +49,41 @@
       <li>Pilotage</li>
     </ul>
     <img src="glorp-4x.png" alt="Glorp" /> <br />
-    <a href="https://www.youtube.com/watch?v=EWxFMUik4mQ" target="_blank"
-      >LMAO</a
+    <a
+      href="https://www.youtube.com/watch?v=EWxFMUik4mQ"
+      target="_blank"
+      class="alien"
+      >Cliquez moi haha LMAO™</a
     >
+    <form action="#" method="post">
+      <label for="nom">Ton nom: </label>
+      <input type="text" id="nom" name="nom" placeholder="John" />
+      <label for="courriel"> Ton courriel: </label>
+      <input
+        type="email"
+        name="courriel"
+        id="courriel"
+        placeholder="john@example.com"
+      />
+      <label for="message">Ton message: </label>
+      <textarea name="message" id="message" rows="7"></textarea>
+      <label for="sujet">Sujet: </label>
+      <select name="sujet" id="sujet">
+        <option value="info">Information générale</option>
+        <option value="support">Support technique</option>
+        <option value="autre">Autre</option>
+      </select>
+      <input type="checkbox" id="consent" name="consent" />
+      <label for="consent">J'accepte les conditions</label>
+      <button type="submit">Envoyer</button>
+      <input type="reset" value="Reset" />
+    </form>
+    <nav class="menu">
+      <ul>
+        <li><a id="home" href="#">Home</a></li>
+        <li><a id="about" href="#">About</a></li>
+        <li><a id="contact" href="#">Contact</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
