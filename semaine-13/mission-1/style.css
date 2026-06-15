@@ -6,8 +6,46 @@ h1 {
   display: flex;
   justify-content: center;
   font-family: "Lavishly Yours", cursive;
-  font-size: 80px;
+  font-size: 90px;
 }
+
+.um {
+  background: center / contain no-repeat
+    url("https://cdn.7tv.app/emote/01HMBEZHE80007XJVZXHQA9P8P/4x.png");
+  display: flex;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  font:
+    bold calc(1em + 2 * (100vw - 120px) / 90) "Bitcount Prop Double Ink",
+    system-ui;
+  color: #ff0083;
+  text-shadow: black 2px 2px 0.2rem;
+}
+
+/* .bitcount-prop-double-ink {
+  font-family: "Bitcount Prop Double Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+} */
+
+/* .waiting-for-the-sunrise-regular {
+  font-family: "Waiting for the Sunrise", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
 
 .info2 {
   display: flex;
@@ -99,4 +137,24 @@ h2 {
   font-variation-settings:
     "MORF" 15,
     "SHLN" 50;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #30e733;
+  color: white;
+  align-items: center;
+  align-content: center;
+}
+
+.footer-img {
+  height: 158px;
+}
+
+.footer-p {
+  font-family: "Waiting for the Sunrise", cursive;
+  font-size: 50px;
+  padding-left: 30px;
 }
