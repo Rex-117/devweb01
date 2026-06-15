@@ -33,61 +33,75 @@
     />
   </head>
   <body>
-    <h1>Damon</h1>
-    <h2>Groupe d'initiative avenir</h2>
-    <p>
-      Bienvenue sur mon site de test! <span class="lmao">LMAO</span>. Nous somes
-      dans le groupe d'initiative avenir LOL™ <br />
-      C'est un site blanc <br />
-      Haha lol <br />
-      Je fais du coding dans VS Code<br />
-      Est-ce que vous avez vu un <span class="lmao2">Ay LMAO™?</span>
-    </p>
-    <ul class="interest">
-      <li>Technologie</li>
-      <li>Jeux vidéos</li>
-      <li>Pilotage</li>
-      <li>LMAO</li>
-    </ul>
-    <img
-      src="https://cdn.7tv.app/emote/01FB2TYZZR000FFZEHGR57VJXJ/2x.gif"
-      alt=""
-    />
-    <img class="glorp" src="glorp-4x.png" alt="Glorp" />
-    <img
-      src="https://cdn.7tv.app/emote/01GR9K55R00003C5VKDM5EZ5KZ/2x.gif"
-      alt=""
-    />
-    <br />
+    <h1>Deimons</h1>
+    <div class="info2">
+      <h2>Groupe d'initiative avenir</h2>
+      <p>
+        Bienvenue sur mon site de test! <span class="lmao">LMAO</span>. Nous
+        somes dans le groupe d'initiative avenir LOL™ <br />
+        C'est un site blanc <br />
+        Haha lol <br />
+        Je fais du coding dans VS Code<br />
+        Est-ce que vous avez vu un <span class="lmao2">Ay LMAO™?</span>
+      </p>
+    </div>
+    <div>
+      <ul class="interest">
+        <li>Technologie</li>
+        <li>Jeux vidéos</li>
+        <li>Pilotage</li>
+        <li>LMAO</li>
+      </ul>
+    </div>
+    <div class="lmao-div">
+      <img
+        src="https://cdn.7tv.app/emote/01FB2TYZZR000FFZEHGR57VJXJ/2x.gif"
+        alt=""
+      />
+      <img class="glorp" src="glorp-4x.png" alt="Glorp" />
+      <img
+        src="https://cdn.7tv.app/emote/01GR9K55R00003C5VKDM5EZ5KZ/2x.gif"
+        alt=""
+      />
+      <br />
+    </div>
     <a
       href="https://www.youtube.com/watch?v=EWxFMUik4mQ"
       target="_blank"
       class="alien"
       >Cliquez moi haha LMAO™</a
     >
-    <form action="#" method="post">
-      <label for="nom">Ton nom: </label>
-      <input type="text" id="nom" name="nom" placeholder="John" />
-      <label for="courriel"> Ton courriel: </label>
-      <input
-        type="email"
-        name="courriel"
-        id="courriel"
-        placeholder="john@example.com"
-      />
-      <label for="message">Ton message: </label>
-      <textarea name="message" id="message" rows="7"></textarea>
-      <label for="sujet">Sujet: </label>
-      <select name="sujet" id="sujet">
-        <option value="info">Information générale</option>
-        <option value="support">Support technique</option>
-        <option value="autre">Autre</option>
-      </select>
-      <input type="checkbox" id="consent" name="consent" />
-      <label for="consent">J'accepte les conditions</label>
-      <button type="submit">Envoyer</button>
-      <input type="reset" value="Reset" />
-    </form>
+    <div class="formulaire">
+      <form action="#" method="post">
+        <label for="nom">Ton nom: </label>
+        <input type="text" id="nom" name="nom" placeholder="John" />
+        <label for="courriel"> Ton courriel: </label>
+        <input
+          type="email"
+          name="courriel"
+          id="courriel"
+          placeholder="john@example.com"
+        />
+        <div>
+          <label for="message">Ton message: </label>
+          <textarea name="message" id="message" rows="7"></textarea>
+          <div>
+            <label for="sujet">Sujet: </label>
+            <select name="sujet" id="sujet">
+              <option value="info">Information générale</option>
+              <option value="support">Support technique</option>
+              <option value="autre">Autre</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" id="consent" name="consent" />
+          <label for="consent">J'accepte les conditions</label>
+          <button type="submit">Envoyer</button>
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+    </div>
     <nav class="menu">
       <ul>
         <li><a id="home" href="#">Home</a></li>

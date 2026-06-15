@@ -1,31 +1,54 @@
 body {
-  background-color: rgb(172, 227, 167);
+  background-color: rgb(186, 245, 187);
 }
 
 h1 {
+  display: flex;
+  justify-content: center;
   font-family: "Lavishly Yours", cursive;
-  font-size: 55px;
+  font-size: 80px;
+}
+
+.info2 {
+  display: flex;
+  justify-content: space-around;
 }
 
 .interest {
-  width: 200px;
-  height: 100px;
+  width: 400px;
+  height: 200px;
   background-color: #0cc1ea;
   padding: 20px;
   padding: 10px 20px;
   padding-top: 10px;
-  word-spacing: 1rem;
+  /* word-spacing: 1rem; */
   border: 2px solid #333;
   border-radius: 8px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 20px auto;
   margin-bottom: 40px;
 }
 
 .glorp {
   width: 250px;
+}
+
+.lmao-div {
+  display: flex;
+  align-items: end;
+  align-content: center;
+  justify-content: center;
+}
+
+.formulaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 30px; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
 }
 
 .lmao {
@@ -41,9 +64,12 @@ h1 {
 }
 
 .alien {
+  display: flex;
+  justify-content: center;
   font-family: "Nabla", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
+  text-decoration: none;
   font-size: 45px;
   font-style: normal;
   font-variation-settings:
