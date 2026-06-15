@@ -2,6 +2,12 @@ body {
   background-color: rgb(186, 245, 187);
 }
 
+header {
+  width: 70%;
+  margin: auto;
+  /* height: 600px; */
+}
+
 h1 {
   display: flex;
   justify-content: center;
@@ -13,7 +19,7 @@ h1 {
   background: center / contain no-repeat
     url("https://cdn.7tv.app/emote/01HMBEZHE80007XJVZXHQA9P8P/4x.png");
   display: flex;
-  height: 700px;
+  /* height: 700px; */
   align-items: center;
   justify-content: center;
   font:
@@ -81,12 +87,19 @@ h1 {
 }
 
 .formulaire {
+  border: 1px solid #333;
   display: flex;
   justify-content: center;
+  height: 500px;
   align-items: center;
-  /* gap: 30px; */
   /* flex-wrap: wrap; */
   /* justify-content: space-between; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .lmao {
@@ -157,4 +170,8 @@ footer {
   font-family: "Waiting for the Sunrise", cursive;
   font-size: 50px;
   padding-left: 30px;
+}
+
+.textarea {
+  display: flex;
 }
