@@ -1,5 +1,6 @@
 body {
   background-color: rgb(172, 227, 167);
+  align-items: center;
 }
 
 h1 {
@@ -24,6 +25,12 @@ h1 {
   margin-bottom: 40px;
 }
 
+.lol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .glorp {
   width: 250px;
 }
@@ -41,6 +48,8 @@ h1 {
 }
 
 .alien {
+  display: flex;
+  justify-content: center;
   font-family: "Nabla", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
