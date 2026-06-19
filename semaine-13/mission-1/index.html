@@ -31,6 +31,14 @@
       href="https://fonts.googleapis.com/css2?family=Nabla&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h1>Damon</h1>
@@ -67,29 +75,39 @@
       class="alien"
       >Cliquez moi haha LMAO™</a
     >
-    <form action="#" method="post">
-      <label for="nom">Ton nom: </label>
-      <input type="text" id="nom" name="nom" placeholder="John" />
-      <label for="courriel"> Ton courriel: </label>
-      <input
-        type="email"
-        name="courriel"
-        id="courriel"
-        placeholder="john@example.com"
-      />
-      <label for="message">Ton message: </label>
-      <textarea name="message" id="message" rows="7"></textarea>
-      <label for="sujet">Sujet: </label>
-      <select name="sujet" id="sujet">
-        <option value="info">Information générale</option>
-        <option value="support">Support technique</option>
-        <option value="autre">Autre</option>
-      </select>
-      <input type="checkbox" id="consent" name="consent" />
-      <label for="consent">J'accepte les conditions</label>
-      <button type="submit">Envoyer</button>
-      <input type="reset" value="Reset" />
-    </form>
+    <div class="formulaire">
+      <form action="#" method="post">
+        <label for="nom">Ton nom: </label>
+        <input type="text" id="nom" name="nom" placeholder="John" />
+        <label for="courriel"> Ton courriel: </label>
+        <input
+          type="email"
+          name="courriel"
+          id="courriel"
+          placeholder="john@example.com"
+        />
+        <div>
+          <div class="textarea">
+            <label for="message">Ton message: </label>
+            <textarea name="message" id="message" rows="7"></textarea>
+          </div>
+          <div>
+            <label for="sujet">Sujet: </label>
+            <select name="sujet" id="sujet">
+              <option value="info">Information générale</option>
+              <option value="support">Support technique</option>
+              <option value="autre">Autre</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" id="consent" name="consent" />
+          <label for="consent">J'accepte les conditions</label>
+          <button type="submit">Envoyer</button>
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+    </div>
     <nav class="menu">
       <ul>
         <li><a id="home" href="#">Home</a></li>
@@ -97,5 +115,20 @@
         <li><a id="contact" href="#">Contact</a></li>
       </ul>
     </nav>
+    <footer>
+      <img
+        class="footer-img"
+        src="https://cdn.7tv.app/emote/01F5PXJWVG00034VRANA2V6JJ5/4x.png"
+        alt=""
+      />
+      <p class="footer-p">
+        © Vous êtes sur encore ce cite? Wut? C'est un catastrophe LMAO HAHA
+      </p>
+      <img
+        class="footer-p"
+        src="https://cdn.7tv.app/emote/01GG2C4EY8000CWVTXDQVEYB36/4x.png"
+        alt=""
+      />
+    </footer>
   </body>
 </html>
